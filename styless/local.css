@@ -45,7 +45,7 @@
 }
 .footer_local {
     background-color: #979797;
-    color: #1B1B1B;
+    color: #FFFFFF;
     align-content: center;
 }
 .footer_row_local {
@@ -63,6 +63,66 @@
 .footer_icon_local:hover {
 	opacity: 0.5;
 }
+
+.responsive_fullwidthe_picture_local{
+	width: 100%;
+  height: auto;
+	margin-top: 20px;
+}
+.aboutus_bar_local{
+	background-color: #979797;
+	justify-content: center;
+	color: #FFFFFF;
+}
+.nav_link_local{
+	color: #ffffff;
+	font-weight: bold;
+}
+.nav_link_local:hover{
+	color: #000000;
+	
+}
+.aboutus_card_local{
+	margin: 3% 10%;
+	background-color: #F7F7F7;
+}
+
+.aboutus_image_local{
+	width: 250px;
+	height: 250px;
+}
+.about_us_txt_local{
+	padding-top: 5%;
+	padding-right: 5%;
+}
+.activit_charity_title_bg_local{
+	background-color: #478C5C;
+}
+.activit_education_title_bg_local{
+	background-color: #3282b8;
+}
+.activit_social_title_bg_local{
+	background-color: #ff5722;
+}
+.activity_main_img_local{
+	width: 100px;
+	height: 100px;
+	margin-left: 5%;
+}
+.activity_main_title_local{
+	margin-top: 5%;
+}
+.activity_card_local{
+	margin: 2% 10%;
+	background-color: #EEEEEE;
+}
+.activity_txt_local{
+	font-weight: bold;
+	color: #343434;
+
+}
+/*Responsive Part of the CSS*/
+
 @media (min-width: 768px) {
     .bd-placeholder-img-lg {
         font-size: 3.5rem;
@@ -90,4 +150,7 @@
     .carousel_content_local {
         text-align: center;
     }
+	.aboutus_card_local{
+		text-align: center;
+	}
 }
