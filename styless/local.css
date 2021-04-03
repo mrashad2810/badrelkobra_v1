@@ -61,68 +61,64 @@
     margin: 5px 5px;
 }
 .footer_icon_local:hover {
-	opacity: 0.5;
+    opacity: 0.5;
 }
-
-.responsive_fullwidthe_picture_local{
-	width: 100%;
-  height: auto;
-	margin-top: 20px;
+.responsive_fullwidthe_picture_local {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
 }
-.aboutus_bar_local{
-	background-color: #979797;
-	justify-content: center;
-	color: #FFFFFF;
+.aboutus_bar_local {
+    background-color: #979797;
+    justify-content: center;
+    color: #FFFFFF;
 }
-.nav_link_local{
-	color: #ffffff;
-	font-weight: bold;
+.nav_link_local {
+    color: #ffffff;
+    font-weight: bold;
 }
-.nav_link_local:hover{
-	color: #000000;
-	
+.nav_link_local:hover {
+    color: #000000;
 }
-.aboutus_card_local{
-	margin: 3% 10%;
-	background-color: #F7F7F7;
+.aboutus_card_local {
+    margin: 3% 10%;
+    background-color: #F7F7F7;
 }
-
-.aboutus_image_local{
-	width: 250px;
-	height: 250px;
+.aboutus_image_local {
+    width: 250px;
+    height: 250px;
+    margin-top: 3%;
 }
-.about_us_txt_local{
-	padding-top: 5%;
-	padding-right: 5%;
+.about_us_txt_local {
+    padding-top: 5%;
+    padding-right: 5%;
 }
-.activit_charity_title_bg_local{
-	background-color: #478C5C;
+.activit_charity_title_bg_local {
+    background-color: #478C5C;
 }
-.activit_education_title_bg_local{
-	background-color: #3282b8;
+.activit_education_title_bg_local {
+    background-color: #3282b8;
 }
-.activit_social_title_bg_local{
-	background-color: #ff5722;
+.activit_social_title_bg_local {
+    background-color: #ff5722;
 }
-.activity_main_img_local{
-	width: 100px;
-	height: 100px;
-	margin-left: 5%;
+.activity_main_img_local {
+    width: 100px;
+    height: 100px;
+    margin-left: 5%;
 }
-.activity_main_title_local{
-	margin-top: 5%;
+.activity_main_title_local {
+    margin-top: 5%;
 }
-.activity_card_local{
-	margin: 2% 10%;
-	background-color: #EEEEEE;
+.activity_card_local {
+    margin: 2% 10%;
+    background-color: #EEEEEE;
 }
-.activity_txt_local{
-	font-weight: bold;
-	color: #343434;
-
+.activity_txt_local {
+    color: #343434;
+    font-size: 18px;
 }
 /*Responsive Part of the CSS*/
-
 @media (min-width: 768px) {
     .bd-placeholder-img-lg {
         font-size: 3.5rem;
@@ -150,7 +146,10 @@
     .carousel_content_local {
         text-align: center;
     }
-	.aboutus_card_local{
-		text-align: center;
-	}
-}
+    .aboutus_card_local {
+        text-align: center;
+    }
+    .about_us_txt_local {
+        text-align: justify;
+        text-justify: inter-word;
+    }
