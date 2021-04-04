@@ -124,7 +124,7 @@
 	text-align: center;
 }
 .activity_image_local {
-    width: auto;
+    width: 100%;
     height: 250px;
     margin-top: 3%;
 }
