@@ -118,6 +118,16 @@
     color: #343434;
     font-size: 18px;
 }
+
+.card_text_local{
+	font-weight: bold;
+	text-align: center;
+}
+.activity_image_local {
+    width: auto;
+    height: 250px;
+    margin-top: 3%;
+}
 /*Responsive Part of the CSS*/
 @media (min-width: 768px) {
     .bd-placeholder-img-lg {
